@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1494781248 source:/home/pi/cpp/Telemetry/main.cpp
+	<iostream>
+	"include/i2cComm.h"
+	<iomanip>
+	"MPU6050.h"
+	"HMC5883.h"
+	"serial.h"
+	"Sonar.h"
+	"GPS.h"
+	"si4432.h"
+	<wiringPi.h>
+	<cmath>
+	<chrono>
+	<fstream>
+	<string>
+	<sstream>
+
+1493017498 /home/pi/cpp/Telemetry/include/i2cComm.h
+	<stdint.h>
+
+1493017544 source:/home/pi/cpp/Telemetry/src/i2cComm.cpp
+	<wiringPiI2C.h>
+	"i2cComm.h"
+
+1493843346 /home/pi/cpp/Telemetry/include/MPU6050.h
+	"i2cComm.h"
+	<stdlib.h>
+
+1493843310 source:/home/pi/cpp/Telemetry/src/MPU6050.cpp
+	"MPU6050.h"
+	<wiringPi.h>
+
+1494287159 /home/pi/cpp/Telemetry/include/HMC5883.h
+	<i2cComm.h>
+	<cmath>
+
+1494318292 source:/home/pi/cpp/Telemetry/src/HMC5883.cpp
+	"HMC5883.h"
+	<wiringPi.h>
+
+1493830046 source:/home/pi/cpp/Telemetry/src/serial.cpp
+	"serial.h"
+	<wiringSerial.h>
+	<cstring>
+
+1493827851 /home/pi/cpp/Telemetry/include/serial.h
+	<string>
+
+1493045699 source:/home/pi/cpp/Telemetry/src/Sonar.cpp
+	"Sonar.h"
+	<wiringPi.h>
+
+1493045408 /home/pi/cpp/Telemetry/include/Sonar.h
+
+1494003960 source:/home/pi/cpp/Telemetry/src/GPS.cpp
+	"GPS.h"
+	<string>
+	<iostream>
+
+1494002958 /home/pi/cpp/Telemetry/include/GPS.h
+	<serial.h>
+	<array>
+
+1494528968 /home/pi/cpp/Telemetry/include/spi.h
+
+1494529019 source:/home/pi/cpp/Telemetry/src/spi.cpp
+	"spi.h"
+	<wiringPiSPI.h>
+
+1494779646 source:/home/pi/cpp/Telemetry/src/si4432.cpp
+	"si4432.h"
+	<iostream>
+
+1494699351 /home/pi/cpp/Telemetry/include/si4432.h
+	<spi.h>
+	<wiringPi.h>
+

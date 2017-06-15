@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1492781266 source:/home/pi/cpp/APDS9960/main.cpp
+	<iostream>
+	<apds9960.h>
+	<wiringPi.h>
+
+1492768950 /home/pi/cpp/APDS9960/include/apds9960.h
+	<i2cComm.h>
+	<stdlib.h>
+
+1492761212 /home/pi/cpp/APDS9960/include/i2cComm.h
+	<stdint.h>
+
+1492768937 source:/home/pi/cpp/APDS9960/src/apds9960.cpp
+	"apds9960.h"
+	<wiringPi.h>
+
+1492766178 source:/home/pi/cpp/APDS9960/src/i2cComm.cpp
+	<wiringPiI2C.h>
+	"i2cComm.h"
+
