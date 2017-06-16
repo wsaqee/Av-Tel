@@ -1,7 +1,7 @@
 #ifndef HMC5883_H
 #define HMC5883_H
 
-#include <i2cComm.h>
+#include "i2cComm.h"
 #include <cmath>
 
 #define PI 3.14159265359

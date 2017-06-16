@@ -1,4 +1,4 @@
-#include "MPU6050.h"
+#include "../include/MPU6050.h"
 #include <wiringPi.h>
 
 MPU6050::MPU6050():i2cComm(MPU6050_ADDRESS)

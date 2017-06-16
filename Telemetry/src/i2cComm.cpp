@@ -1,5 +1,5 @@
 #include <wiringPiI2C.h>
-#include "i2cComm.h"
+#include "../include/i2cComm.h"
 
 i2cComm::i2cComm(int devId)
 {

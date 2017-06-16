@@ -1,4 +1,4 @@
-#include "GPS.h"
+#include "../include/GPS.h"
 #include <string>
 #include <iostream>
 

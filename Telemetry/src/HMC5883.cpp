@@ -1,4 +1,4 @@
-#include "HMC5883.h"
+#include "../include/HMC5883.h"
 #include <wiringPi.h>
 
 HMC5883::HMC5883():i2cComm(HMC5883_ADDRESS)

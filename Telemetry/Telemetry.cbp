@@ -41,23 +41,18 @@
 		<Unit filename="include/GPS.h" />
 		<Unit filename="include/HMC5883.h" />
 		<Unit filename="include/MPU6050.h" />
-		<Unit filename="include/Sonar.h" />
 		<Unit filename="include/i2cComm.h" />
 		<Unit filename="include/serial.h" />
-		<Unit filename="include/si4432.h" />
-		<Unit filename="include/spi.h" />
-		<Unit filename="main.cpp" />
 		<Unit filename="src/GPS.cpp" />
 		<Unit filename="src/HMC5883.cpp" />
 		<Unit filename="src/MPU6050.cpp" />
-		<Unit filename="src/Sonar.cpp" />
 		<Unit filename="src/i2cComm.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Unit filename="src/serial.cpp" />
-		<Unit filename="src/si4432.cpp" />
-		<Unit filename="src/spi.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

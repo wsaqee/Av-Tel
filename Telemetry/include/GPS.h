@@ -1,7 +1,7 @@
 #ifndef GPS_H
 #define GPS_H
 
-#include <serial.h>
+#include "serial.h"
 #include <array>
 
 #define ADDR_UTC    1
